@@ -26,6 +26,7 @@
 		F93A22B31F8924270001F77F /* accessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22B21F8924270001F77F /* accessoryViewController.swift */; };
 		F93A22B51F8924F80001F77F /* summaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22B41F8924F80001F77F /* summaryViewController.swift */; };
 		F93A22B81F8952180001F77F /* carViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22B71F8952180001F77F /* carViewCell.swift */; };
+		F93A22BA1F8992170001F77F /* toyota.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22B91F8992170001F77F /* toyota.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		F93A22B21F8924270001F77F /* accessoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accessoryViewController.swift; sourceTree = "<group>"; };
 		F93A22B41F8924F80001F77F /* summaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = summaryViewController.swift; sourceTree = "<group>"; };
 		F93A22B71F8952180001F77F /* carViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carViewCell.swift; sourceTree = "<group>"; };
+		F93A22B91F8992170001F77F /* toyota.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toyota.swift; sourceTree = "<group>"; };
 		FBE2A5CC297901084812F424 /* Pods-toyota-mobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toyota-mobileUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-toyota-mobileUITests/Pods-toyota-mobileUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -204,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				F93A22B71F8952180001F77F /* carViewCell.swift */,
+				F93A22B91F8992170001F77F /* toyota.swift */,
 			);
 			path = "classes and objects";
 			sourceTree = "<group>";
@@ -510,6 +513,7 @@
 				F93A22A41F8920B20001F77F /* loginController.swift in Sources */,
 				F93A22A91F8922B00001F77F /* buildViewController.swift in Sources */,
 				F93A22AB1F8922DF0001F77F /* colorViewController.swift in Sources */,
+				F93A22BA1F8992170001F77F /* toyota.swift in Sources */,
 				F93A22AF1F8923A20001F77F /* modelViewController.swift in Sources */,
 				F93A22B31F8924270001F77F /* accessoryViewController.swift in Sources */,
 				F93A22B81F8952180001F77F /* carViewCell.swift in Sources */,
