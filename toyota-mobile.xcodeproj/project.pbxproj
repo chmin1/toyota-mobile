@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		965EF92E1BFF16FC58D646B2 /* Pods_toyota_mobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135BD1A80EEBFAE854789724 /* Pods_toyota_mobileTests.framework */; };
+		BE7998ED0CDF2EE47A09FE9F /* Pods_toyota_mobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338EC57BD7E4FDCAC8BAF4D9 /* Pods_toyota_mobileUITests.framework */; };
+		D1B68C532E97C75C8929AA19 /* Pods_toyota_mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD86B1DE6BDA7AF0ECB1B01 /* Pods_toyota_mobile.framework */; };
 		F93A223C1F86CD7E0001F77F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A223B1F86CD7E0001F77F /* AppDelegate.swift */; };
 		F93A22411F86CD7E0001F77F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93A223F1F86CD7E0001F77F /* Main.storyboard */; };
 		F93A22431F86CD7E0001F77F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F93A22421F86CD7E0001F77F /* Assets.xcassets */; };
@@ -22,6 +25,7 @@
 		F93A22B11F8923D60001F77F /* configViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22B01F8923D60001F77F /* configViewController.swift */; };
 		F93A22B31F8924270001F77F /* accessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22B21F8924270001F77F /* accessoryViewController.swift */; };
 		F93A22B51F8924F80001F77F /* summaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22B41F8924F80001F77F /* summaryViewController.swift */; };
+		F93A22B81F8952180001F77F /* carViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22B71F8952180001F77F /* carViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AD86B1DE6BDA7AF0ECB1B01 /* Pods_toyota_mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toyota_mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA885147A312F04553F7EDB /* Pods-toyota-mobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toyota-mobileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-toyota-mobileTests/Pods-toyota-mobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		135BD1A80EEBFAE854789724 /* Pods_toyota_mobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toyota_mobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		338EC57BD7E4FDCAC8BAF4D9 /* Pods_toyota_mobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toyota_mobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1BAC1001E3329C1190CD9F /* Pods-toyota-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toyota-mobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-toyota-mobile/Pods-toyota-mobile.release.xcconfig"; sourceTree = "<group>"; };
+		4257D0493C236FB94398FC7E /* Pods-toyota-mobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toyota-mobileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-toyota-mobileTests/Pods-toyota-mobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BE41E83E04048E872C68A95 /* Pods-toyota-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toyota-mobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-toyota-mobile/Pods-toyota-mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		9D8533C2DE3D77D60CF2C259 /* Pods-toyota-mobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toyota-mobileUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-toyota-mobileUITests/Pods-toyota-mobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F93A22381F86CD7E0001F77F /* toyota-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "toyota-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F93A223B1F86CD7E0001F77F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F93A22401F86CD7E0001F77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +75,8 @@
 		F93A22B01F8923D60001F77F /* configViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = configViewController.swift; sourceTree = "<group>"; };
 		F93A22B21F8924270001F77F /* accessoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accessoryViewController.swift; sourceTree = "<group>"; };
 		F93A22B41F8924F80001F77F /* summaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = summaryViewController.swift; sourceTree = "<group>"; };
+		F93A22B71F8952180001F77F /* carViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carViewCell.swift; sourceTree = "<group>"; };
+		FBE2A5CC297901084812F424 /* Pods-toyota-mobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toyota-mobileUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-toyota-mobileUITests/Pods-toyota-mobileUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1B68C532E97C75C8929AA19 /* Pods_toyota_mobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				965EF92E1BFF16FC58D646B2 /* Pods_toyota_mobileTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +100,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE7998ED0CDF2EE47A09FE9F /* Pods_toyota_mobileUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48457190159F8BC98F66384C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BE41E83E04048E872C68A95 /* Pods-toyota-mobile.debug.xcconfig */,
+				3A1BAC1001E3329C1190CD9F /* Pods-toyota-mobile.release.xcconfig */,
+				4257D0493C236FB94398FC7E /* Pods-toyota-mobileTests.debug.xcconfig */,
+				0BA885147A312F04553F7EDB /* Pods-toyota-mobileTests.release.xcconfig */,
+				9D8533C2DE3D77D60CF2C259 /* Pods-toyota-mobileUITests.debug.xcconfig */,
+				FBE2A5CC297901084812F424 /* Pods-toyota-mobileUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6008F542CF12B6DB2E03CDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AD86B1DE6BDA7AF0ECB1B01 /* Pods_toyota_mobile.framework */,
+				135BD1A80EEBFAE854789724 /* Pods_toyota_mobileTests.framework */,
+				338EC57BD7E4FDCAC8BAF4D9 /* Pods_toyota_mobileUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F93A222F1F86CD7E0001F77F = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +137,8 @@
 				F93A224F1F86CD7E0001F77F /* toyota-mobileTests */,
 				F93A225A1F86CD7E0001F77F /* toyota-mobileUITests */,
 				F93A22391F86CD7E0001F77F /* Products */,
+				48457190159F8BC98F66384C /* Pods */,
+				D6008F542CF12B6DB2E03CDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +155,7 @@
 		F93A223A1F86CD7E0001F77F /* toyota-mobile */ = {
 			isa = PBXGroup;
 			children = (
+				F93A22B61F8951B70001F77F /* classes and objects */,
 				F93A22A71F8922790001F77F /* viewControllers */,
 				F93A223B1F86CD7E0001F77F /* AppDelegate.swift */,
 				F93A223F1F86CD7E0001F77F /* Main.storyboard */,
@@ -157,6 +200,14 @@
 			path = viewControllers;
 			sourceTree = "<group>";
 		};
+		F93A22B61F8951B70001F77F /* classes and objects */ = {
+			isa = PBXGroup;
+			children = (
+				F93A22B71F8952180001F77F /* carViewCell.swift */,
+			);
+			path = "classes and objects";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F93A22601F86CD7E0001F77F /* Build configuration list for PBXNativeTarget "toyota-mobile" */;
 			buildPhases = (
+				29DEE4F2623A35DBA8C8AB6B /* [CP] Check Pods Manifest.lock */,
 				F93A22341F86CD7E0001F77F /* Sources */,
 				F93A22351F86CD7E0001F77F /* Frameworks */,
 				F93A22361F86CD7E0001F77F /* Resources */,
+				77133AF56EC57AE604B30089 /* [CP] Embed Pods Frameworks */,
+				0ACC5DEF0D91A38158154B2A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,9 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F93A22631F86CD7E0001F77F /* Build configuration list for PBXNativeTarget "toyota-mobileTests" */;
 			buildPhases = (
+				765DC4FEF394E4BEC4639BC3 /* [CP] Check Pods Manifest.lock */,
 				F93A22481F86CD7E0001F77F /* Sources */,
 				F93A22491F86CD7E0001F77F /* Frameworks */,
 				F93A224A1F86CD7E0001F77F /* Resources */,
+				F72BE1B2F17C76F5DA1A6D03 /* [CP] Embed Pods Frameworks */,
+				9F26A6F127FC9E4FB93B929C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F93A22661F86CD7E0001F77F /* Build configuration list for PBXNativeTarget "toyota-mobileUITests" */;
 			buildPhases = (
+				BC9DF5EA8C80BFE4AC7AD111 /* [CP] Check Pods Manifest.lock */,
 				F93A22531F86CD7E0001F77F /* Sources */,
 				F93A22541F86CD7E0001F77F /* Frameworks */,
 				F93A22551F86CD7E0001F77F /* Resources */,
+				F0E5472BF0458ED9723EB973 /* [CP] Embed Pods Frameworks */,
+				1AD9DD1F8D7CBFDA67B00F98 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -286,6 +346,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0ACC5DEF0D91A38158154B2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-toyota-mobile/Pods-toyota-mobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AD9DD1F8D7CBFDA67B00F98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-toyota-mobileUITests/Pods-toyota-mobileUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29DEE4F2623A35DBA8C8AB6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-toyota-mobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		765DC4FEF394E4BEC4639BC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-toyota-mobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77133AF56EC57AE604B30089 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-toyota-mobile/Pods-toyota-mobile-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-toyota-mobile/Pods-toyota-mobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F26A6F127FC9E4FB93B929C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-toyota-mobileTests/Pods-toyota-mobileTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC9DF5EA8C80BFE4AC7AD111 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-toyota-mobileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0E5472BF0458ED9723EB973 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-toyota-mobileUITests/Pods-toyota-mobileUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F72BE1B2F17C76F5DA1A6D03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-toyota-mobileTests/Pods-toyota-mobileTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F93A22341F86CD7E0001F77F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -300,6 +512,7 @@
 				F93A22AB1F8922DF0001F77F /* colorViewController.swift in Sources */,
 				F93A22AF1F8923A20001F77F /* modelViewController.swift in Sources */,
 				F93A22B31F8924270001F77F /* accessoryViewController.swift in Sources */,
+				F93A22B81F8952180001F77F /* carViewCell.swift in Sources */,
 				F93A22AD1F89233B0001F77F /* packageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +677,7 @@
 		};
 		F93A22611F86CD7E0001F77F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BE41E83E04048E872C68A95 /* Pods-toyota-mobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -479,6 +693,7 @@
 		};
 		F93A22621F86CD7E0001F77F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1BAC1001E3329C1190CD9F /* Pods-toyota-mobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +709,7 @@
 		};
 		F93A22641F86CD7E0001F77F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4257D0493C236FB94398FC7E /* Pods-toyota-mobileTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +727,7 @@
 		};
 		F93A22651F86CD7E0001F77F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BA885147A312F04553F7EDB /* Pods-toyota-mobileTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +745,7 @@
 		};
 		F93A22671F86CD7E0001F77F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D8533C2DE3D77D60CF2C259 /* Pods-toyota-mobileUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -544,6 +762,7 @@
 		};
 		F93A22681F86CD7E0001F77F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE2A5CC297901084812F424 /* Pods-toyota-mobileUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

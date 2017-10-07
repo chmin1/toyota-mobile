@@ -7,15 +7,30 @@
 //
 
 import UIKit
+import Parse
 
 class loginController: UIViewController {
-
+    
+    @IBOutlet weak var phoneNumberField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
+    
+    @IBAction func onLogin(_ sender: Any) {
+        PFUser.logInWithUsername(inBackground: phoneNumberField.text!, password: "1234") { (user: PFUser?, error: Error?) in
+            if let error = error {
+                print("😠 User log in failed: \(error.localizedDescription)")
+            } else {
+                print("😀 User logged in successfully")
+                // display view controller that needs to shown after successful login
+                self.performSegue(withIdentifier: "finishedLogin", sender: nil)
+            }
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

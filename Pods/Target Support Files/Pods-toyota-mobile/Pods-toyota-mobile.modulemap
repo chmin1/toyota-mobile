@@ -1,0 +1,6 @@
+framework module Pods_toyota_mobile {
+  umbrella header "Pods-toyota-mobile-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_toyota_mobileTests {
+  umbrella header "Pods-toyota-mobileTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
