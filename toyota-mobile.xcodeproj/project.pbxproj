@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F93A223C1F86CD7E0001F77F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A223B1F86CD7E0001F77F /* AppDelegate.swift */; };
+		F93A22411F86CD7E0001F77F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93A223F1F86CD7E0001F77F /* Main.storyboard */; };
+		F93A22431F86CD7E0001F77F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F93A22421F86CD7E0001F77F /* Assets.xcassets */; };
+		F93A22461F86CD7E0001F77F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93A22441F86CD7E0001F77F /* LaunchScreen.storyboard */; };
+		F93A22511F86CD7E0001F77F /* toyota_mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22501F86CD7E0001F77F /* toyota_mobileTests.swift */; };
+		F93A225C1F86CD7E0001F77F /* toyota_mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A225B1F86CD7E0001F77F /* toyota_mobileUITests.swift */; };
+		F93A22A41F8920B20001F77F /* loginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22A31F8920B20001F77F /* loginController.swift */; };
+		F93A22A61F8921090001F77F /* chooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22A51F8921090001F77F /* chooseViewController.swift */; };
+		F93A22A91F8922B00001F77F /* buildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22A81F8922B00001F77F /* buildViewController.swift */; };
+		F93A22AB1F8922DF0001F77F /* colorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22AA1F8922DF0001F77F /* colorViewController.swift */; };
+		F93A22AD1F89233B0001F77F /* packageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22AC1F89233B0001F77F /* packageViewController.swift */; };
+		F93A22AF1F8923A20001F77F /* modelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22AE1F8923A20001F77F /* modelViewController.swift */; };
+		F93A22B11F8923D60001F77F /* configViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22B01F8923D60001F77F /* configViewController.swift */; };
+		F93A22B31F8924270001F77F /* accessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22B21F8924270001F77F /* accessoryViewController.swift */; };
+		F93A22B51F8924F80001F77F /* summaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22B41F8924F80001F77F /* summaryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F93A224D1F86CD7E0001F77F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F93A22301F86CD7E0001F77F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F93A22371F86CD7E0001F77F;
+			remoteInfo = "toyota-mobile";
+		};
+		F93A22581F86CD7E0001F77F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F93A22301F86CD7E0001F77F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F93A22371F86CD7E0001F77F;
+			remoteInfo = "toyota-mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F93A22381F86CD7E0001F77F /* toyota-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "toyota-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93A223B1F86CD7E0001F77F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F93A22401F86CD7E0001F77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F93A22421F86CD7E0001F77F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F93A22451F86CD7E0001F77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F93A22471F86CD7E0001F77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F93A224C1F86CD7E0001F77F /* toyota-mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "toyota-mobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93A22501F86CD7E0001F77F /* toyota_mobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toyota_mobileTests.swift; sourceTree = "<group>"; };
+		F93A22521F86CD7E0001F77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F93A22571F86CD7E0001F77F /* toyota-mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "toyota-mobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93A225B1F86CD7E0001F77F /* toyota_mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toyota_mobileUITests.swift; sourceTree = "<group>"; };
+		F93A225D1F86CD7E0001F77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F93A22A31F8920B20001F77F /* loginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginController.swift; sourceTree = "<group>"; };
+		F93A22A51F8921090001F77F /* chooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseViewController.swift; sourceTree = "<group>"; };
+		F93A22A81F8922B00001F77F /* buildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buildViewController.swift; sourceTree = "<group>"; };
+		F93A22AA1F8922DF0001F77F /* colorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorViewController.swift; sourceTree = "<group>"; };
+		F93A22AC1F89233B0001F77F /* packageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = packageViewController.swift; sourceTree = "<group>"; };
+		F93A22AE1F8923A20001F77F /* modelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelViewController.swift; sourceTree = "<group>"; };
+		F93A22B01F8923D60001F77F /* configViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = configViewController.swift; sourceTree = "<group>"; };
+		F93A22B21F8924270001F77F /* accessoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accessoryViewController.swift; sourceTree = "<group>"; };
+		F93A22B41F8924F80001F77F /* summaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = summaryViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F93A22351F86CD7E0001F77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93A22491F86CD7E0001F77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93A22541F86CD7E0001F77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F93A222F1F86CD7E0001F77F = {
+			isa = PBXGroup;
+			children = (
+				F93A223A1F86CD7E0001F77F /* toyota-mobile */,
+				F93A224F1F86CD7E0001F77F /* toyota-mobileTests */,
+				F93A225A1F86CD7E0001F77F /* toyota-mobileUITests */,
+				F93A22391F86CD7E0001F77F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F93A22391F86CD7E0001F77F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F93A22381F86CD7E0001F77F /* toyota-mobile.app */,
+				F93A224C1F86CD7E0001F77F /* toyota-mobileTests.xctest */,
+				F93A22571F86CD7E0001F77F /* toyota-mobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F93A223A1F86CD7E0001F77F /* toyota-mobile */ = {
+			isa = PBXGroup;
+			children = (
+				F93A22A71F8922790001F77F /* viewControllers */,
+				F93A223B1F86CD7E0001F77F /* AppDelegate.swift */,
+				F93A223F1F86CD7E0001F77F /* Main.storyboard */,
+				F93A22421F86CD7E0001F77F /* Assets.xcassets */,
+				F93A22441F86CD7E0001F77F /* LaunchScreen.storyboard */,
+				F93A22471F86CD7E0001F77F /* Info.plist */,
+			);
+			path = "toyota-mobile";
+			sourceTree = "<group>";
+		};
+		F93A224F1F86CD7E0001F77F /* toyota-mobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				F93A22501F86CD7E0001F77F /* toyota_mobileTests.swift */,
+				F93A22521F86CD7E0001F77F /* Info.plist */,
+			);
+			path = "toyota-mobileTests";
+			sourceTree = "<group>";
+		};
+		F93A225A1F86CD7E0001F77F /* toyota-mobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F93A225B1F86CD7E0001F77F /* toyota_mobileUITests.swift */,
+				F93A225D1F86CD7E0001F77F /* Info.plist */,
+			);
+			path = "toyota-mobileUITests";
+			sourceTree = "<group>";
+		};
+		F93A22A71F8922790001F77F /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F93A22A31F8920B20001F77F /* loginController.swift */,
+				F93A22A51F8921090001F77F /* chooseViewController.swift */,
+				F93A22A81F8922B00001F77F /* buildViewController.swift */,
+				F93A22AA1F8922DF0001F77F /* colorViewController.swift */,
+				F93A22AC1F89233B0001F77F /* packageViewController.swift */,
+				F93A22AE1F8923A20001F77F /* modelViewController.swift */,
+				F93A22B01F8923D60001F77F /* configViewController.swift */,
+				F93A22B21F8924270001F77F /* accessoryViewController.swift */,
+				F93A22B41F8924F80001F77F /* summaryViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F93A22371F86CD7E0001F77F /* toyota-mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F93A22601F86CD7E0001F77F /* Build configuration list for PBXNativeTarget "toyota-mobile" */;
+			buildPhases = (
+				F93A22341F86CD7E0001F77F /* Sources */,
+				F93A22351F86CD7E0001F77F /* Frameworks */,
+				F93A22361F86CD7E0001F77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "toyota-mobile";
+			productName = "toyota-mobile";
+			productReference = F93A22381F86CD7E0001F77F /* toyota-mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F93A224B1F86CD7E0001F77F /* toyota-mobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F93A22631F86CD7E0001F77F /* Build configuration list for PBXNativeTarget "toyota-mobileTests" */;
+			buildPhases = (
+				F93A22481F86CD7E0001F77F /* Sources */,
+				F93A22491F86CD7E0001F77F /* Frameworks */,
+				F93A224A1F86CD7E0001F77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F93A224E1F86CD7E0001F77F /* PBXTargetDependency */,
+			);
+			name = "toyota-mobileTests";
+			productName = "toyota-mobileTests";
+			productReference = F93A224C1F86CD7E0001F77F /* toyota-mobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F93A22561F86CD7E0001F77F /* toyota-mobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F93A22661F86CD7E0001F77F /* Build configuration list for PBXNativeTarget "toyota-mobileUITests" */;
+			buildPhases = (
+				F93A22531F86CD7E0001F77F /* Sources */,
+				F93A22541F86CD7E0001F77F /* Frameworks */,
+				F93A22551F86CD7E0001F77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F93A22591F86CD7E0001F77F /* PBXTargetDependency */,
+			);
+			name = "toyota-mobileUITests";
+			productName = "toyota-mobileUITests";
+			productReference = F93A22571F86CD7E0001F77F /* toyota-mobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F93A22301F86CD7E0001F77F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Chavane Minto";
+				TargetAttributes = {
+					F93A22371F86CD7E0001F77F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F93A224B1F86CD7E0001F77F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F93A22371F86CD7E0001F77F;
+					};
+					F93A22561F86CD7E0001F77F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F93A22371F86CD7E0001F77F;
+					};
+				};
+			};
+			buildConfigurationList = F93A22331F86CD7E0001F77F /* Build configuration list for PBXProject "toyota-mobile" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F93A222F1F86CD7E0001F77F;
+			productRefGroup = F93A22391F86CD7E0001F77F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F93A22371F86CD7E0001F77F /* toyota-mobile */,
+				F93A224B1F86CD7E0001F77F /* toyota-mobileTests */,
+				F93A22561F86CD7E0001F77F /* toyota-mobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F93A22361F86CD7E0001F77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93A22461F86CD7E0001F77F /* LaunchScreen.storyboard in Resources */,
+				F93A22431F86CD7E0001F77F /* Assets.xcassets in Resources */,
+				F93A22411F86CD7E0001F77F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93A224A1F86CD7E0001F77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93A22551F86CD7E0001F77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F93A22341F86CD7E0001F77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93A223C1F86CD7E0001F77F /* AppDelegate.swift in Sources */,
+				F93A22B51F8924F80001F77F /* summaryViewController.swift in Sources */,
+				F93A22A61F8921090001F77F /* chooseViewController.swift in Sources */,
+				F93A22B11F8923D60001F77F /* configViewController.swift in Sources */,
+				F93A22A41F8920B20001F77F /* loginController.swift in Sources */,
+				F93A22A91F8922B00001F77F /* buildViewController.swift in Sources */,
+				F93A22AB1F8922DF0001F77F /* colorViewController.swift in Sources */,
+				F93A22AF1F8923A20001F77F /* modelViewController.swift in Sources */,
+				F93A22B31F8924270001F77F /* accessoryViewController.swift in Sources */,
+				F93A22AD1F89233B0001F77F /* packageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93A22481F86CD7E0001F77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93A22511F86CD7E0001F77F /* toyota_mobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93A22531F86CD7E0001F77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93A225C1F86CD7E0001F77F /* toyota_mobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F93A224E1F86CD7E0001F77F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F93A22371F86CD7E0001F77F /* toyota-mobile */;
+			targetProxy = F93A224D1F86CD7E0001F77F /* PBXContainerItemProxy */;
+		};
+		F93A22591F86CD7E0001F77F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F93A22371F86CD7E0001F77F /* toyota-mobile */;
+			targetProxy = F93A22581F86CD7E0001F77F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F93A223F1F86CD7E0001F77F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F93A22401F86CD7E0001F77F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F93A22441F86CD7E0001F77F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F93A22451F86CD7E0001F77F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F93A225E1F86CD7E0001F77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F93A225F1F86CD7E0001F77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F93A22611F86CD7E0001F77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X82DZHRTK;
+				INFOPLIST_FILE = "toyota-mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChavaneMinto.toyota-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F93A22621F86CD7E0001F77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X82DZHRTK;
+				INFOPLIST_FILE = "toyota-mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChavaneMinto.toyota-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F93A22641F86CD7E0001F77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X82DZHRTK;
+				INFOPLIST_FILE = "toyota-mobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChavaneMinto.toyota-mobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toyota-mobile.app/toyota-mobile";
+			};
+			name = Debug;
+		};
+		F93A22651F86CD7E0001F77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X82DZHRTK;
+				INFOPLIST_FILE = "toyota-mobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChavaneMinto.toyota-mobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toyota-mobile.app/toyota-mobile";
+			};
+			name = Release;
+		};
+		F93A22671F86CD7E0001F77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X82DZHRTK;
+				INFOPLIST_FILE = "toyota-mobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChavaneMinto.toyota-mobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "toyota-mobile";
+			};
+			name = Debug;
+		};
+		F93A22681F86CD7E0001F77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X82DZHRTK;
+				INFOPLIST_FILE = "toyota-mobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChavaneMinto.toyota-mobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "toyota-mobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F93A22331F86CD7E0001F77F /* Build configuration list for PBXProject "toyota-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93A225E1F86CD7E0001F77F /* Debug */,
+				F93A225F1F86CD7E0001F77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F93A22601F86CD7E0001F77F /* Build configuration list for PBXNativeTarget "toyota-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93A22611F86CD7E0001F77F /* Debug */,
+				F93A22621F86CD7E0001F77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F93A22631F86CD7E0001F77F /* Build configuration list for PBXNativeTarget "toyota-mobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93A22641F86CD7E0001F77F /* Debug */,
+				F93A22651F86CD7E0001F77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F93A22661F86CD7E0001F77F /* Build configuration list for PBXNativeTarget "toyota-mobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93A22671F86CD7E0001F77F /* Debug */,
+				F93A22681F86CD7E0001F77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F93A22301F86CD7E0001F77F /* Project object */;
+}
