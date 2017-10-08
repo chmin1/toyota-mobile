@@ -12,7 +12,6 @@ import Parse
 class chooseViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var cars: [PFObject]!
-    var carPicked: PFObject!
     
     @IBOutlet weak var carTableView: UITableView!
     
@@ -42,10 +41,6 @@ class chooseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         return cell
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let cell = carTableView.cellForRow(at: indexPath) as! carViewCell
-        carPicked = cell.toyotaCar
-    }
     
     func getCamry() {
         

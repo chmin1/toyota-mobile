@@ -106,3 +106,13 @@ class SeatImages: NSDictionary {
         
     ]
 }
+
+class Dealerships: NSDictionary {
+    static var dealershipDict = [
+        "Putnam Toyota":["Available","50 California Drive, Burlingame, CA 94010","1.2 miles","(650)-340-6900"],
+        "Melody Toyota":["Not Available","750 El Camino Real, San Bruno, CA 94066", "5 miles", "(650)-635-1000"],
+        "Toyota 101":["Available", "525 E. Bayshore Road, Redwood City, CA 94063", "8.74 miles", "(650)-365-5000"],
+        "City Toyota":["Available", "255 San Pedro Road, Daly City, CA 94014", "10 miles", "(650)-755-5500"],
+        "One Toyota of Oakland":["Not Available", "8181 Oakport Street, Oakland, CA 94621", "14.65 miles", "(510)-569-1111"]
+    ]
+}

@@ -8,6 +8,9 @@
 
 import UIKit
 import Parse
+import GooglePlaces
+import GoogleMaps
+import GooglePlacePicker
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -25,7 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 configuration.server = "https://serene-gorge-80715.herokuapp.com/parse"
                })
         )
-        
+        GMSPlacesClient.provideAPIKey("AIzaSyCk7ugxeCGZjTmf8BbAujfTxNTmiUwFS2E")
+        GMSServices.provideAPIKey("AIzaSyCk7ugxeCGZjTmf8BbAujfTxNTmiUwFS2E")
         return true
     }
 
