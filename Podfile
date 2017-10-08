@@ -9,6 +9,9 @@ target 'toyota-mobile' do
 
 	pod 'Parse'
 	pod 'ParseUI'
+	pod 'GooglePlaces'
+  	pod 'GooglePlacePicker'
+  	pod 'GoogleMaps'
 
   target 'toyota-mobileTests' do
     inherit! :search_paths
