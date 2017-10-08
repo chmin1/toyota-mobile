@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B9E32451F89A54C00A8C1BF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9E32441F89A54C00A8C1BF /* Colors.swift */; };
 		965EF92E1BFF16FC58D646B2 /* Pods_toyota_mobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135BD1A80EEBFAE854789724 /* Pods_toyota_mobileTests.framework */; };
 		BE7998ED0CDF2EE47A09FE9F /* Pods_toyota_mobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338EC57BD7E4FDCAC8BAF4D9 /* Pods_toyota_mobileUITests.framework */; };
 		D1B68C532E97C75C8929AA19 /* Pods_toyota_mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD86B1DE6BDA7AF0ECB1B01 /* Pods_toyota_mobile.framework */; };
@@ -48,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		0AD86B1DE6BDA7AF0ECB1B01 /* Pods_toyota_mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toyota_mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B9E32441F89A54C00A8C1BF /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		0BA885147A312F04553F7EDB /* Pods-toyota-mobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toyota-mobileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-toyota-mobileTests/Pods-toyota-mobileTests.release.xcconfig"; sourceTree = "<group>"; };
 		135BD1A80EEBFAE854789724 /* Pods_toyota_mobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toyota_mobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		338EC57BD7E4FDCAC8BAF4D9 /* Pods_toyota_mobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toyota_mobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -207,6 +209,7 @@
 			children = (
 				F93A22B71F8952180001F77F /* carViewCell.swift */,
 				F93A22B91F8992170001F77F /* toyota.swift */,
+				0B9E32441F89A54C00A8C1BF /* Colors.swift */,
 			);
 			path = "classes and objects";
 			sourceTree = "<group>";
@@ -514,6 +517,7 @@
 				F93A22A91F8922B00001F77F /* buildViewController.swift in Sources */,
 				F93A22AB1F8922DF0001F77F /* colorViewController.swift in Sources */,
 				F93A22BA1F8992170001F77F /* toyota.swift in Sources */,
+				0B9E32451F89A54C00A8C1BF /* Colors.swift in Sources */,
 				F93A22AF1F8923A20001F77F /* modelViewController.swift in Sources */,
 				F93A22B31F8924270001F77F /* accessoryViewController.swift in Sources */,
 				F93A22B81F8952180001F77F /* carViewCell.swift in Sources */,
@@ -685,7 +689,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8X82DZHRTK;
+				DEVELOPMENT_TEAM = 2Y7958BP2Q;
 				INFOPLIST_FILE = "toyota-mobile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ChavaneMinto.toyota-mobile";
@@ -701,7 +705,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8X82DZHRTK;
+				DEVELOPMENT_TEAM = 2Y7958BP2Q;
 				INFOPLIST_FILE = "toyota-mobile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ChavaneMinto.toyota-mobile";
