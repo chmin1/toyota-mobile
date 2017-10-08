@@ -6,7 +6,9 @@ target 'toyota-mobile' do
   use_frameworks!
 
   # Pods for toyota-mobile
+
 	pod 'Parse'
+	pod 'ParseUI'
 
   target 'toyota-mobileTests' do
     inherit! :search_paths

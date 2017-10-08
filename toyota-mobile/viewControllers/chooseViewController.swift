@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import Parse
 
 class chooseViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    var cars: [PFObject]!
+    
     @IBOutlet weak var carTableView: UITableView!
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,21 +23,53 @@ class chooseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         carTableView.delegate = self
         carTableView.dataSource = self
         
+        getCamry()
+        getCHR()
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return cars?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = carTableView.dequeueReusableCell(withIdentifier: "carCell") as! carViewCell
         
-        cell.vehicleImage.image = #imageLiteral(resourceName: "Camry-Atara-SL")
-        cell.vehicleNameLabel.text = "Name"
-        cell.vehiclePriceLabel.text = "$$,$$$"
-        cell.vehicleMPGLabel.text = "MPG"
+        let newCar = self.cars![indexPath.row]
+        cell.toyotaCar = newCar
         
         return cell
+    }
+    
+    func getCamry() {
+        
+        let query = PFQuery(className: "camry")
+        query.findObjectsInBackground { (car: [PFObject]?, error: Error?) in
+            if let car = car {
+                self.cars = car
+                self.carTableView.reloadData()
+            } else {
+                // handle error
+                print(error?.localizedDescription)
+            }
+        }
+        
+    }
+    
+    func getCHR() {
+        
+        let query = PFQuery(className: "CHR")
+        query.findObjectsInBackground { (car: [PFObject]?, error: Error?) -> Void in
+            if let car = car {
+                print(car.count)
+                self.cars.append(car[0])
+                self.carTableView.reloadData()
+            } else {
+                // handle error
+                print(error?.localizedDescription)
+            }
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {

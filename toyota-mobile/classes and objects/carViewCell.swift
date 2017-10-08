@@ -7,16 +7,27 @@
 //
 
 import UIKit
+import ParseUI
 
 class carViewCell: UITableViewCell {
     
-    @IBOutlet weak var vehicleImage: UIImageView!
+    @IBOutlet weak var vehicleImage: PFImageView!
     
     @IBOutlet weak var vehicleNameLabel: UILabel!
     
     @IBOutlet weak var vehiclePriceLabel: UILabel!
     
     @IBOutlet weak var vehicleMPGLabel: UILabel!
+    
+    var toyotaCar: PFObject! {
+        didSet {
+            self.vehicleImage.file = toyotaCar["image"] as? PFFile
+            self.vehicleImage.loadInBackground()
+            self.vehicleNameLabel.text = toyotaCar["name"] as? String
+            self.vehiclePriceLabel.text = toyotaCar["price"] as? String
+            self.vehicleMPGLabel.text = toyotaCar["MPG"] as? String
+        }
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()

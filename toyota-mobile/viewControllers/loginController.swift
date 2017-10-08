@@ -25,6 +25,23 @@ class loginController: UIViewController {
                 print("😠 User log in failed: \(error.localizedDescription)")
             } else {
                 print("😀 User logged in successfully")
+                
+                toyota.createCamry(completion: { (success: Bool, error: Error?) in
+                    if let error = error {
+                        print("Error retrieving camry: \(error.localizedDescription)")
+                    } else {
+                        print("camry retrival successful")
+                    }
+                })
+                
+                toyota.createCHR(completion: { (success: Bool, error: Error?) in
+                    if let error = error {
+                        print("Error retrieving C-HR: \(error.localizedDescription)")
+                    } else {
+                        print("C-HR retrival successful")
+                    }
+                })
+                
                 // display view controller that needs to shown after successful login
                 self.performSegue(withIdentifier: "finishedLogin", sender: nil)
             }
