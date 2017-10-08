@@ -170,7 +170,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Camry-Atara-SL" translatesAutoresizingMaskIntoConstraints="NO" id="Hck-Hv-g2r">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MY18_Camry_US_LE_03T3_002" translatesAutoresizingMaskIntoConstraints="NO" id="Hck-Hv-g2r">
                                 <rect key="frame" x="81" y="153" width="213" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -205,6 +205,9 @@
                                     <segment title="Gray"/>
                                     <segment title="Black"/>
                                 </segments>
+                                <connections>
+                                    <action selector="changeColor:" destination="BbF-TA-NME" eventType="valueChanged" id="hw8-m6-0HD"/>
+                                </connections>
                             </segmentedControl>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IWb-JS-Xkj">
                                 <rect key="frame" x="16" y="401" width="69" height="37"/>
@@ -245,6 +248,10 @@
                         <viewLayoutGuide key="safeArea" id="sAd-cA-SCI"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Color" id="Vfm-oN-HJB"/>
+                    <connections>
+                        <outlet property="carImage" destination="Hck-Hv-g2r" id="c06-9A-TWb"/>
+                        <outlet property="colorControl" destination="sIh-WC-WA2" id="7SU-S8-Anf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cM0-w2-xS4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -351,7 +358,7 @@
                                 <color key="textColor" red="0.78542244429999997" green="0.046029195189999997" blue="0.10932335999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Camry-Atara-SL" translatesAutoresizingMaskIntoConstraints="NO" id="Rfn-Cr-KSL">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MY18_Camry_US_LE_08W7_002" translatesAutoresizingMaskIntoConstraints="NO" id="Rfn-Cr-KSL">
                                 <rect key="frame" x="81" y="189" width="213" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -917,12 +924,12 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="nXm-13-BLe" kind="relationship" relationship="viewControllers" id="ksU-RD-THc"/>
+                        <segue destination="AK5-4Z-PEq" kind="relationship" relationship="viewControllers" id="nAp-kf-qKp"/>
                         <segue destination="BbF-TA-NME" kind="relationship" relationship="viewControllers" id="S8u-C3-orp"/>
                         <segue destination="g0D-5U-SLB" kind="relationship" relationship="viewControllers" id="hUZ-ln-pe9"/>
-                        <segue destination="AK5-4Z-PEq" kind="relationship" relationship="viewControllers" id="nAp-kf-qKp"/>
                         <segue destination="Wfr-om-SJd" kind="relationship" relationship="viewControllers" id="knx-6b-2ta"/>
                         <segue destination="okG-CF-Jy5" kind="relationship" relationship="viewControllers" id="pi4-p6-PEr"/>
+                        <segue destination="nXm-13-BLe" kind="relationship" relationship="viewControllers" id="ksU-RD-THc"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wgF-vN-kBD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -951,6 +958,8 @@
     </scenes>
     <resources>
         <image name="Camry-Atara-SL" width="940" height="529"/>
+        <image name="MY18_Camry_US_LE_03T3_002" width="315" height="215"/>
+        <image name="MY18_Camry_US_LE_08W7_002" width="315" height="215"/>
         <image name="toyota-3d-vector-logo" width="400" height="400"/>
     </resources>
 </document>

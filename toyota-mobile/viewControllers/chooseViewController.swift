@@ -12,6 +12,7 @@ import Parse
 class chooseViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var cars: [PFObject]!
+    var carImage: UIImage!
     
     @IBOutlet weak var carTableView: UITableView!
     
@@ -41,6 +42,7 @@ class chooseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         return cell
     }
     
+        
     
     func getCamry() {
         
@@ -62,8 +64,7 @@ class chooseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let query = PFQuery(className: "CHR")
         query.findObjectsInBackground { (car: [PFObject]?, error: Error?) -> Void in
             if let car = car {
-                print(car.count)
-                self.cars.append(car[car.count - 1])
+                self.cars.append(car[car.count-1])
                 self.carTableView.reloadData()
             } else {
                 // handle error
