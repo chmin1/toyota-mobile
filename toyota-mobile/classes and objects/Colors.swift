@@ -116,3 +116,14 @@ class Dealerships: NSDictionary {
         "One Toyota of Oakland":["Not Available", "8181 Oakport Street, Oakland, CA 94621", "14.65 miles", "(510)-569-1111"]
     ]
 }
+
+class Models: NSDictionary {
+    static var modelsDict = [
+        "L": ["$23,495", "29/41"],
+        "LE":["$24,000","29/41"],
+        "XLE":["$28,450","29/41"],
+        "SE":["$25,200","29/41"],
+        "XSE":["$29,000","29/41"]
+        
+    ]
+}
