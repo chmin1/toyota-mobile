@@ -8,13 +8,34 @@
 
 import UIKit
 
-class modelViewController: UIViewController {
-
+class modelViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    let models = ["L", "LE", "XLE", "SE", "XSE"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        tableView.delegate = self
+        tableView.dataSource = self
     }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return models.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "modelCell") as! modelCell
+        let model = models[indexPath.row];
+        cell.modelNameLabel.text = model
+        cell.msrpLabel.text = Models.modelsDict[model]?[0]
+        cell.mpgLabel.text = Models.modelsDict[model]?[1]
+        
+        return cell
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
