@@ -8,6 +8,7 @@
 
 import UIKit
 import Parse
+import ParseUI
 
 class toyota: NSObject {
     
@@ -52,25 +53,6 @@ class toyota: NSObject {
             }
         }
         return nil
-    }
-    
-    class func saveCustomCar(vehicleName: String?, withImage vehicleImage: String?, withPrice vehiclePrice: String?, withMPG vehicleMPG: String?, withColor color: String?, withPackages packages: [String]?, withModel model: String?, withConfig config: String?, withAccessories accessories: [String]?, withCompletion completion: @escaping PFBooleanResultBlock) {
-        
-        let custom = PFObject(className: "Custom Car")
-        custom["builder"] = PFUser.current()?.username
-        custom["name"] = vehicleName
-        custom["image"] = vehicleImage
-        custom["price"] = vehiclePrice
-        custom["MPG"] = vehiclePrice
-        custom["color"] = color
-        custom["packages"] = packages
-        custom["model"] = model
-        custom["config"] = config
-        custom["accessory"] = accessories
-        
-        custom.saveInBackground { (success: Bool, error: Error?) in
-            completion(success, error)
-        }
     }
     
 }

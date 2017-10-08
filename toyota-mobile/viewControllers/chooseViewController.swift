@@ -12,6 +12,7 @@ import Parse
 class chooseViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var cars: [PFObject]!
+    var carImage: UIImage!
     
     @IBOutlet weak var carTableView: UITableView!
     
@@ -41,6 +42,7 @@ class chooseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         return cell
     }
     
+        
     
     func getCamry() {
         

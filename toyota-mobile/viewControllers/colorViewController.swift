@@ -9,12 +9,22 @@
 import UIKit
 
 class colorViewController: UIViewController {
-
+    
+    @IBOutlet weak var carImage: UIImageView!
+    
+    @IBOutlet weak var colorControl: UISegmentedControl!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func changeColor(_ sender: Any) {
+        
+        
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
