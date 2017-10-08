@@ -67,7 +67,6 @@ class chooseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let query = PFQuery(className: "CHR")
         query.findObjectsInBackground { (car: [PFObject]?, error: Error?) -> Void in
             if let car = car {
-                print(car.count)
                 self.cars.append(car[0])
                 self.carTableView.reloadData()
             } else {
