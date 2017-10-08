@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0B9E32451F89A54C00A8C1BF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9E32441F89A54C00A8C1BF /* Colors.swift */; };
+		0B9E32471F8A833400A8C1BF /* DealershipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9E32461F8A833400A8C1BF /* DealershipViewController.swift */; };
+		0B9E32491F8A843000A8C1BF /* DealershipTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9E32481F8A843000A8C1BF /* DealershipTableViewCell.swift */; };
+		0B9E324B1F8A9DB800A8C1BF /* PackageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9E324A1F8A9DB800A8C1BF /* PackageTableViewCell.swift */; };
 		965EF92E1BFF16FC58D646B2 /* Pods_toyota_mobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135BD1A80EEBFAE854789724 /* Pods_toyota_mobileTests.framework */; };
 		BE7998ED0CDF2EE47A09FE9F /* Pods_toyota_mobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338EC57BD7E4FDCAC8BAF4D9 /* Pods_toyota_mobileUITests.framework */; };
 		D1B68C532E97C75C8929AA19 /* Pods_toyota_mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD86B1DE6BDA7AF0ECB1B01 /* Pods_toyota_mobile.framework */; };
@@ -51,6 +54,9 @@
 /* Begin PBXFileReference section */
 		0AD86B1DE6BDA7AF0ECB1B01 /* Pods_toyota_mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toyota_mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B9E32441F89A54C00A8C1BF /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		0B9E32461F8A833400A8C1BF /* DealershipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealershipViewController.swift; sourceTree = "<group>"; };
+		0B9E32481F8A843000A8C1BF /* DealershipTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealershipTableViewCell.swift; sourceTree = "<group>"; };
+		0B9E324A1F8A9DB800A8C1BF /* PackageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageTableViewCell.swift; sourceTree = "<group>"; };
 		0BA885147A312F04553F7EDB /* Pods-toyota-mobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toyota-mobileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-toyota-mobileTests/Pods-toyota-mobileTests.release.xcconfig"; sourceTree = "<group>"; };
 		135BD1A80EEBFAE854789724 /* Pods_toyota_mobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toyota_mobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		338EC57BD7E4FDCAC8BAF4D9 /* Pods_toyota_mobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toyota_mobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -202,6 +208,7 @@
 				F93A22B01F8923D60001F77F /* configViewController.swift */,
 				F93A22B21F8924270001F77F /* accessoryViewController.swift */,
 				F93A22B41F8924F80001F77F /* summaryViewController.swift */,
+				0B9E32461F8A833400A8C1BF /* DealershipViewController.swift */,
 			);
 			path = viewControllers;
 			sourceTree = "<group>";
@@ -213,6 +220,8 @@
 				F93A22B91F8992170001F77F /* toyota.swift */,
 				0B9E32441F89A54C00A8C1BF /* Colors.swift */,
 				F97FA1161F8AAE9E00C245D0 /* modelCell.swift */,
+				0B9E32481F8A843000A8C1BF /* DealershipTableViewCell.swift */,
+				0B9E324A1F8A9DB800A8C1BF /* PackageTableViewCell.swift */,
 			);
 			path = "classes and objects";
 			sourceTree = "<group>";
@@ -522,6 +531,8 @@
 				F93A223C1F86CD7E0001F77F /* AppDelegate.swift in Sources */,
 				F93A22B51F8924F80001F77F /* summaryViewController.swift in Sources */,
 				F93A22A61F8921090001F77F /* chooseViewController.swift in Sources */,
+				0B9E32491F8A843000A8C1BF /* DealershipTableViewCell.swift in Sources */,
+				0B9E324B1F8A9DB800A8C1BF /* PackageTableViewCell.swift in Sources */,
 				F93A22B11F8923D60001F77F /* configViewController.swift in Sources */,
 				F93A22A41F8920B20001F77F /* loginController.swift in Sources */,
 				F93A22A91F8922B00001F77F /* buildViewController.swift in Sources */,
@@ -531,6 +542,7 @@
 				F93A22AF1F8923A20001F77F /* modelViewController.swift in Sources */,
 				F93A22B31F8924270001F77F /* accessoryViewController.swift in Sources */,
 				F97FA1171F8AAE9E00C245D0 /* modelCell.swift in Sources */,
+				0B9E32471F8A833400A8C1BF /* DealershipViewController.swift in Sources */,
 				F93A22B81F8952180001F77F /* carViewCell.swift in Sources */,
 				F93A22AD1F89233B0001F77F /* packageViewController.swift in Sources */,
 			);
