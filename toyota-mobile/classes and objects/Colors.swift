@@ -46,7 +46,7 @@ class PackageDict: NSDictionary {
     ]
 }
 
-class Accessories: NSDictionary {
+class AccessoriesDict: NSDictionary {
     static var accessoriesDict = [
         "Rear Spoiler":#imageLiteral(resourceName: "Camry_2018_RearSpoiler_D_A"),
         "Lower Rocker Applique":#imageLiteral(resourceName: "Camry_2018_LowerRockerApplique_D_A"),
@@ -69,4 +69,40 @@ class Accessories: NSDictionary {
         "First Aid Kit":#imageLiteral(resourceName: "Camry_2018_FirstAidKit_D_A"),
         "Universal Tablet Holder":#imageLiteral(resourceName: "Camry_2018_UniversalTabletHolder_D_A"),
         ] as [String : Any]
+}
+
+class InteriorSwatchesDict: NSDictionary{
+    static var interiorSwatchesDict = [
+    "XSE Cockpit Red": my18_my18_camry_comp_render_US_,
+    "XSE Black": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_XSE_Black_002"),
+    "XSE Ash": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_XSE_Ash_002"),
+    "XLE Macadamia":#imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_XLE_Macadamia_002"),
+    "XLE Black": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_XLE_Black_002"),
+    "XLE Ash": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_XLE_Ash_002"),
+    "SE Black":#imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_SE_Black_002"),
+    "SE Ash":#imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_SE_Ash_002"),
+    "LE Macadamia": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_LE_Macadamia_002"),
+    "LE Black": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_LE_Black_002"),
+    "LE Ash": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_LE_Ash_002"),
+    "L Ash": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_L_Ash_002")
+    
+    ] as [String : Any]
+}
+
+class SeatImages: NSDictionary {
+    static var seatImagesDict = [
+        "XSE Cockpit Red": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_XSE_Cockpit_Red_002"),
+        "XSE Black": my18_my18_camry_comp_render_XSE,
+        "XSE Ash": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_XSE_Ash_002"),
+        "XLE Macadamia":#imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_XLE_Macadamia_002"),
+        "XLE Black": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_XLE_Black_002"),
+        "XLE Ash": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_XLE_Ash_002"),
+        "SE Black":#imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_SE_Black_002"),
+        "SE Ash":#imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_SE_Ash_002"),
+        "LE Macadamia": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_LE_Macadamia_002"),
+        "LE Black": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_LE_Black_002"),
+        "LE Ash": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_LE_Ash_002"),
+        "L Ash": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_L_Ash_002")
+        
+    ]
 }
