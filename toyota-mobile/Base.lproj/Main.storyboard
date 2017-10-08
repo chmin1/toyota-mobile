@@ -198,7 +198,7 @@
                                 <rect key="frame" x="16" y="365" width="343" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
-                                    <segment title="Red"/>
+                                    <segment title="Ruby"/>
                                     <segment title="Blue"/>
                                     <segment title="White"/>
                                     <segment title="Grey"/>

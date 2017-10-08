@@ -14,6 +14,8 @@ class colorViewController: UIViewController {
     
     @IBOutlet weak var colorControl: UISegmentedControl!
     
+    let color = ["redCamryLE", "blueCamryLE", "whiteCamryLE", "greyCamryLE", "blackCamryLE"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +24,9 @@ class colorViewController: UIViewController {
     
     @IBAction func changeColor(_ sender: Any) {
         
+        let carImage = ColorsDict.colorsDict[color[colorControl.selectedSegmentIndex]]
+        
+        self.carImage.image = carImage!
         
     }
     
