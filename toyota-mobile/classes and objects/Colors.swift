@@ -73,7 +73,7 @@ class AccessoriesDict: NSDictionary {
 
 class InteriorSwatchesDict: NSDictionary{
     static var interiorSwatchesDict = [
-    "XSE Cockpit Red": my18_my18_camry_comp_render_US_,
+    //"XSE Cockpit Red": my18_my18_camry_comp_render_US_,
     "XSE Black": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_XSE_Black_002"),
     "XSE Ash": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_XSE_Ash_002"),
     "XLE Macadamia":#imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_XLE_Macadamia_002"),
@@ -92,7 +92,7 @@ class InteriorSwatchesDict: NSDictionary{
 class SeatImages: NSDictionary {
     static var seatImagesDict = [
         "XSE Cockpit Red": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_XSE_Cockpit_Red_002"),
-        "XSE Black": my18_my18_camry_comp_render_XSE,
+        //"XSE Black": my18_my18_camry_comp_render_XSE,
         "XSE Ash": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_XSE_Ash_002"),
         "XLE Macadamia":#imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_XLE_Macadamia_002"),
         "XLE Black": #imageLiteral(resourceName: "MY18_MY18_Camry_comp_render_US_XLE_Black_002"),
