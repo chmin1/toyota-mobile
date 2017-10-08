@@ -15,7 +15,7 @@ class toyota: NSObject {
         
         let camry = PFObject(className: "camry")
         
-        camry["image"] = getPFFileFromImage(image: #imageLiteral(resourceName: "MY18_Camry_US_L_01J9_002"))
+        camry["image"] = getPFFileFromImage(image: #imageLiteral(resourceName: "MY18_Camry_US_L_01H1_002"))
         camry["name"] = "2018 Camry"
         camry["price"] = "$23,495"
         camry["MPG"] = "29/41"
